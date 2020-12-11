@@ -27,15 +27,17 @@ For this approach, I used the [imbalanced learn](https://imbalanced-learn.readth
 #### Conclusion
 1. Which model had the best balanced accuracy score?
 
-    *SMOTEENN had the best balanced accuracy score.*
+    *SMOTEENN had the best balanced accuracy score of `0.7975462408998795`      
+    versus `0.7752245065690078`; `0.7966770207605626`; `0.7856360112968401`      
+    for Cluster Centroids, SMOTE, and Random Oversampler respectively.*
 
 2. Which model had the best recall score?
 
-    *SMOTE had the best recall score.*
+    *SMOTE had the best recall score: `0.88`.*
 
 3. Which model had the best geometric mean score?
 
-    *SMOTEENN had the best geometric mean score.*
+    *SMOTEENN had the best geometric mean score: `0.79`.*
     
 ---
 
@@ -47,19 +49,22 @@ For this method, I trained and compared two different ensemble classifiers to pr
 #### Conclusion
 1. Which model had the best balanced accuracy score?
 
-    *EasyEnsembleClassifier had the best balanced accuracy score.*
+    *Easy Ensemble Classifier had the best balanced accuracy score: `0.931601605553446`      
+    versus `0.7855345052746622` for Balanced Random Forest Classifier.*
     
 2. Which model had the best recall score?
 
-    *EasyEnsembleClassifier had the best recall score.*
+    *Easy Ensemble Classifier had the best recall score: `0.94` versus      
+    `0.90`for Balanced Random Forest Classifier.*
     
 3. Which model had the best geometric mean score?
 
-    *EasyEnsembleClassifier had the best geometric mean score.*
+    *Easy Ensemble Classifier had the best geometric mean score: `0.93` versus      
+    `0.78` for Balanced Random Forest Classifier.*
     
 4. What are the top three features?
 
     *Top three features are the following:   
-    (0.09175752102205247, 'total_rec_prncp'),    
+    `(0.09175752102205247, 'total_rec_prncp'),    
     (0.06410003199501778, 'total_pymnt_inv'),    
-    (0.05764917485461809, 'total_pymnt')*
+    (0.05764917485461809, 'total_pymnt')`*
